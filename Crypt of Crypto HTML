@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DeathX | The Crypt of Crypto</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0b0b0b;
+    color:#ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(to bottom,#111,#000);
+    text-align:center;
+    padding:80px 20px;
+    border-bottom:2px solid #222;
+}
+
+.logo{
+    font-size:4rem;
+    font-weight:bold;
+    color:#00ff99;
+    text-shadow:0 0 20px #00ff99;
+}
+
+.tagline{
+    font-size:1.5rem;
+    color:#ccc;
+    margin-top:10px;
+}
+
+.hero{
+    max-width:1400px;
+    margin:auto;
+    padding:50px 20px;
+    text-align:center;
+}
+
+.hero img{
+    width:100%;
+    max-width:1000px;
+    border-radius:15px;
+    border:3px solid #00ff99;
+    box-shadow:0 0 30px rgba(0,255,153,.3);
+}
+
+.hero h2{
+    margin-top:30px;
+    font-size:3rem;
+    color:#00ff99;
+}
+
+.section{
+    max-width:1200px;
+    margin:auto;
+    padding:70px 20px;
+}
+
+.section h2{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:30px;
+    color:#00ff99;
+}
+
+.section p{
+    font-size:1.2rem;
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:30px;
+    margin-top:40px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:15px;
+    border:2px solid #222;
+    transition:.3s;
+}
+
+.gallery img:hover{
+    transform:scale(1.03);
+}
+
+.crypt-box{
+    background:#111;
+    border:2px solid #00ff99;
+    border-radius:15px;
+    padding:40px;
+    margin-top:40px;
+}
+
+.crypt-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.coin{
+    background:#1a1a1a;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+    border:1px solid #333;
+}
+
+.coin h3{
+    color:#00ff99;
+}
+
+.footer{
+    text-align:center;
+    padding:40px;
+    border-top:2px solid #222;
+    background:#050505;
+}
+
+.social{
+    margin-top:20px;
+}
+
+.social a{
+    color:#00ff99;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:1.2rem;
+}
+
+.construction{
+    background:#330000;
+    border:2px solid red;
+    padding:20px;
+    margin:40px auto;
+    max-width:900px;
+    border-radius:15px;
+    text-align:center;
+    font-size:1.2rem;
+}
+
+button{
+    background:#00ff99;
+    color:black;
+    padding:15px 30px;
+    border:none;
+    border-radius:10px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:20px;
+}
+
+button:hover{
+    opacity:.9;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">$DeathX</div>
+
+<div class="tagline">
+The Collector of Dead Crypto
+</div>
+
+</header>
+
+<section class="hero">
+
+<img src="deathx-monitors.jpg" alt="DeathX watching crypto influencers">
+
+<h2>The Crypt of Crypto</h2>
+
+<p>
+Influencers create the hype.
+DeathX collects the end result.
+</p>
+
+</section>
+
+<section class="section">
+
+<h2>Who Is DeathX?</h2>
+
+<p>
+Every cycle, thousands of crypto projects are born.
+Some moon.
+Most disappear.
+
+DeathX watches the charts, listens to the influencers,
+and waits patiently for the next project to join the Crypt.
+
+Welcome to the afterlife of crypto.
+</p>
+
+</section>
+
+<section class="section">
+
+<h2>The Collector</h2>
+
+<div class="gallery">
+
+<img src="collecting-dead-crypto.jpg"
+alt="Collecting the Dead in Crypto">
+
+<img src="crypt-of-crypto.jpg"
+alt="The Crypt of Crypto">
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="crypt-box">
+
+<h2>Current Residents of the Crypt</h2>
+
+<p>
+Projects remembered for their rise... and their fall.
+</p>
+
+<div class="crypt-list">
+
+<div class="coin">
+<h3>OM</h3>
+<p>Rest In Portfolio</p>
+</div>
+
+<div class="coin">
+<h3>Squid Game</h3>
+<p>Cause of Death: Rug Pull</p>
+</div>
+
+<div class="coin">
+<h3>Coq Inu</h3>
+<p>Gone Too Soon</p>
+</div>
+
+<div class="coin">
+<h3>Trump Coin</h3>
+<p>FOMO Overdose</p>
+</div>
+
+<div class="coin">
+<h3>FOMO</h3>
+<p>Cause of Death: Green Candles</p>
+</div>
+
+<div class="coin">
+<h3>Next Coin?</h3>
+<p>DeathX Is Watching</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="construction">
+
+<h2>🚧 UNDER CONSTRUCTION 🚧</h2>
+
+<p>
+The Crypt of Crypto is expanding.
+
+The website, social media channels,
+and future cemetery residents are currently being added.
+</p>
+
+<button onclick="alert('DeathX is watching the markets...')">
+Enter The Crypt
+</button>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<h2>$DeathX</h2>
+
+<p>
+Collecting The Dead In Crypto Since The Last Bull Run
+</p>
+
+<div class="social">
+
+<a href="#">X / Twitter</a>
+<a href="#">Telegram</a>
+<a href="#">Dexscreener</a>
+
+</div>
+
+<p style="margin-top:20px;color:#777;">
+© 2026 The Crypt of Crypto
+</p>
+
+</footer>
+
+</body>
+</html>
